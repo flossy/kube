@@ -1,0 +1,134 @@
+// Font
+$font-family-base: "Helvetica Neue", Helvetica, Tahoma, sans-serif !default;
+$font-family-headings: $font-family-base !default;
+$font-family-controls: $font-family-base !default;
+$font-family-code: Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+// Grid
+$grid-width: 1000 !default;
+$grid-gutter-width: 30 !default;
+
+// Base color
+$background-body: #fff !default;
+$color-body: #222 !default;
+$color-headings: #000 !default;
+
+// Type
+$font-size-root: .9375 !default; // .9375 = 15px/16px by default
+$font-size-print: 12pt !default;
+$font-size-base: $font-size-root + 0em !default;
+$base-line: 1.65em !default;
+
+// Font size and line height
+$font-size-lead: 1.3125em !default; // 21px by default
+$line-height-lead: 1.5 !default;
+
+$font-size-big:  ($font-size-root * 1.2 * 16) + 0px !default;
+$font-size-small: ($font-size-root * .85 * 16) + 0px !default;
+$font-size-smaller: ($font-size-root * .75 * 16) + 0px !default;
+
+
+// HEADINGS
+
+// print
+$font-size-h1-print: 36pt !default;
+$font-size-h2-print: 24pt !default;
+$font-size-h3-print: 18pt !default;
+$font-size-h4-print: 14pt !default;
+$font-size-h5-print: 12pt !default;
+$font-size-h6-print: 12pt !default;
+
+// Large desktop
+$font-size-h1-lg: 2.25em !default; // 36px
+$font-size-h2-lg: 1.5em !default; // 24px
+$font-size-h3-lg: 1.3125em !default; // 21px
+$font-size-h4-lg: 1.125em !default; // 18px
+$font-size-h5-lg: 1em !default; // 16px
+$font-size-h6-lg: .75em !default; // 12px
+
+// Portrait tablet to landscape and desktop
+$font-size-h1-md: 2.25em !default; // 36px
+$font-size-h2-md: 1.5em !default; // 24px
+$font-size-h3-md: 1.3125em !default; // 21px
+$font-size-h4-md: 1.125em !default; // 18px
+$font-size-h5-md: 1em !default; // 16px
+$font-size-h6-md: .75em !default; // 12px
+
+// Landscape phone to portrait tablet
+$font-size-h1-sm: 2.25em !default; // 36px
+$font-size-h2-sm: 1.5em !default; // 24px
+$font-size-h3-sm: 1.3125em !default; // 21px
+$font-size-h4-sm: 1.125em !default; // 18px
+$font-size-h5-sm: 1em !default; // 16px
+$font-size-h6-sm: .75em !default; // 12px
+
+// Colors
+$color-gray: #e0e3e5 !default;
+$color-black: #0f0f0f !default;
+$color-blue: #2575ed !default;
+$color-red: #de2c3b !default;
+$color-yellow: #ffc800 !default;
+$color-green: #2c9f42 !default;
+$color-white: #fff !default;
+
+// Colors Dark
+$color-gray-dark: #b3b6b7 !default;
+$color-black-dark: #000 !default;
+$color-blue-dark: #1a52a5 !default;
+$color-red-dark: #b2232f !default;
+$color-yellow-dark: #cca000 !default;
+$color-green-dark: #237f35 !default;
+
+// Colors Light
+$color-gray-light: #f0f1f2 !default;
+$color-black-light: #363738 !default;
+$color-blue-light: #92baf6 !default;
+$color-red-light: #ef969d !default;
+$color-yellow-light: #ffe480 !default;
+$color-green-light: #96cfa1 !default;
+
+// Colors Pastel
+$color-gray-pastel: #f7f8f8 !default;
+$color-black-pastel: #dadada !default;
+$color-blue-pastel: #d3e3fb !default;
+$color-red-pastel: #f8d5d8 !default;
+$color-yellow-pastel: #fff4cc !default;
+$color-green-pastel: #d5ecd9 !default;
+
+// Table Color
+$color-table-border: #eee !default;
+$color-table-stripped: #f8f8f8 !default;
+$color-table-hovered: #f4f4f4 !default;
+
+// Fieldset
+$color-fieldset-border: #ccc !default;
+
+// Code
+$color-code-background: #f4f4f4 !default;
+$color-code-border: #d4d4d4 !default;
+
+// Blockquote
+$color-blockquote-border: #ddd !default;
+
+// Input
+$color-input-border: #ccc !default;
+$color-input-append-background: #f4f4f4 !default;
+$color-input-append-border: #d4d4d4 !default;
+
+// Links Color
+$color-link: #134da5 !default;
+$color-link-hover: $color-red !default;
+
+// Input & Button Padding
+$padding-input-base: .3em !default;
+$padding-btn-base: .55em !default;
+$padding-btn-side-base: 2.5em !default;
+$padding-btn-side-in-forms-base: 1.3em !default;
+
+$padding-input: $padding-input-base .35em !default;
+$padding-btn: $padding-btn-base $padding-btn-side-base !default;
+$padding-btn-outline: $padding-btn-base - (1/16*1em) $padding-btn-side-base !default;
+$padding-btn-outline-bold: $padding-btn-base - (1em/16*2) $padding-btn-side-base !default;
+$padding-btn-in-forms: $padding-input-base + (1em/16*1) $padding-btn-side-in-forms-base !default;
+$padding-btn-outline-in-forms: $padding-input-base $padding-btn-side-in-forms-base !default;
+$padding-btn-outline-bold-in-forms: $padding-input-base - (1em/16*1) $padding-btn-side-in-forms-base !default;
